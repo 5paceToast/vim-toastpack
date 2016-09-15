@@ -1,0 +1,24 @@
+[submodule "after/nerdtree-git-plugin"]
+	path = after/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "start/nerdtree"]
+	path = start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "start/vim-gitgutter"]
+	path = start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "start/a.vim"]
+	path = start/a.vim
+	url = https://github.com/vim-scripts/a.vim
+[submodule "start/tabular"]
+	path = start/tabular
+	url = https://github.com/godlygeek/tabular
+[submodule "after/vim-markdown"]
+	path = after/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown
+[submodule "opt/badwolf"]
+	path = opt/badwolf
+	url = https://github.com/sjl/badwolf
+[submodule "start/vim-airline"]
+	path = start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
