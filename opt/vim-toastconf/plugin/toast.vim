@@ -48,9 +48,10 @@ set tabstop=4     " tabs count as 4 spaces
 let g:vim_markdown_folding_disabled=1 " folding's on
 
 " mappings
+" F12 to reparse syntax
 noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <C-o>:syntax sync fromstart<CR>
-
+" gt to re-align text based on previous pattern
 noremap gt :Tabularize<CR>
 
 color badwolf
