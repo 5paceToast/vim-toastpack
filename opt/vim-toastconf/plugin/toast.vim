@@ -51,4 +51,6 @@ let g:vim_markdown_folding_disabled=1 " folding's on
 noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <C-o>:syntax sync fromstart<CR>
 
+noremap gt :Tabularize<CR>
+
 color badwolf
