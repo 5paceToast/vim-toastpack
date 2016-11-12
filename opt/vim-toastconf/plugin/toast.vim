@@ -20,6 +20,7 @@ set number       " line numbers
 set scrolloff=2  " 2 lines around the cursor at all times (remove?)
 set showmatch    " quickly show where the matching (, etc is
 syntax on        " syntax highlighting is not evil
+set tgc          " truecolor
 set ttyfast      " I swear, this isn't 1998
 set t_Co=256     " you might *think* I don't have colors. I do tho
 set visualbell   " you can have the window blink tho
