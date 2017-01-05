@@ -22,3 +22,6 @@
 [submodule "start/vim-airline"]
 	path = start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "start/vim-unimpaired"]
+	path = start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired
