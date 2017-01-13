@@ -25,3 +25,6 @@
 [submodule "start/vim-unimpaired"]
 	path = start/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired
+[submodule "start/vim-pug"]
+	path = start/vim-pug
+	url = https://github.com/digitaltoad/vim-pug
