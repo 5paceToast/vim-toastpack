@@ -54,5 +54,7 @@ noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <C-o>:syntax sync fromstart<CR>
 " gt to re-align text based on previous pattern
 noremap gt :Tabularize<CR>
+" :Sprunge to upload current buffer to sprunge.us
+command Sprunge w !curl -F 'sprunge=<-' http://sprunge.us
 
 color badwolf
