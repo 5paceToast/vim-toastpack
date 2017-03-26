@@ -25,3 +25,6 @@
 [submodule "start/vim-polyglot"]
     path = start/vim-polyglot
     url = https://github.com/sheerun/vim-polyglot
+[submodule "opt/vim-quantum"]
+	path = opt/vim-quantum
+	url = https://github.com/tyrannicaltoucan/vim-quantum.git
