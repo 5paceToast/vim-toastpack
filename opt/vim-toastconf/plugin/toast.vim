@@ -13,6 +13,13 @@ set noswapfile       " no ~ files (TODO: maybe have a swap/undo dir instead)
 set noundofile       " no .un files
 let g:is_bash=1      " yes, use bash for highlighting. at least for now.
 
+" major annoyances
+if !has('nvim') " vim fails to into colors unless you claim to be xterm
+    if &term =~ "-256color" " neovim is fine tho
+        set term=xterm-256color
+    endif
+endif
+
 " ui
 set background=dark " white text on black, get over it
 set laststatus=2    " always have a status line (2=always)
