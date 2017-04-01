@@ -14,23 +14,27 @@ set noundofile       " no .un files
 let g:is_bash=1      " yes, use bash for highlighting. at least for now.
 
 " ui
-set laststatus=2 " always have a status line (2=always)
-set mat=2        " see: showmatch. do it for less long
-set number       " line numbers
-set scrolloff=2  " 2 lines around the cursor at all times (remove?)
-set showmatch    " quickly show where the matching (, etc is
-syntax on        " syntax highlighting is not evil
-set tgc          " truecolor
-set ttyfast      " I swear, this isn't 1998
-set t_Co=256     " you might *think* I don't have colors. I do tho
-set visualbell   " you can have the window blink tho
-set wrap         " wrap > broken
-if !has('nvim')  " plsgofasts (no meaning on neovim)
+set background=dark " white text on black, get over it
+set laststatus=2    " always have a status line (2=always)
+set mat=2           " see: showmatch. do it for less long
+set number          " line numbers
+set scrolloff=2     " 2 lines around the cursor at all times (remove?)
+set showmatch       " quickly show where the matching (, etc is
+syntax on           " syntax highlighting is not evil
+set termguicolors   " truecolor
+set ttyfast         " I swear, this isn't 1998
+set t_Co=256        " you might *think* I don't have colors. I do tho
+set visualbell      " you can have the window blink tho
+set wrap            " wrap > broken
+if !has('nvim')     " plsgofasts (no meaning on neovim)
     set ttymouse=xterm2
 endif
 " ui-plugins
 let g:airline_powerline_fonts=1            " we have powerline fonts! :D
 let g:airline#extensions#tabline#enabled=1 " buffers=tabs when tabc=1
+let g:airline_theme='quantum'              " matching airline theme
+let g:quantum_black=1                      " I said get over it!
+packadd vim-quantum                        " required for the theme
 
 " interaction
 set loadplugins        " plugins = good
@@ -57,4 +61,4 @@ noremap gt :Tabularize<CR>
 " :Sprunge to upload current buffer to sprunge.us
 command! Sprunge w !curl -F 'sprunge=<-' http://sprunge.us
 
-color badwolf
+color quantum
