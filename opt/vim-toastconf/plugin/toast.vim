@@ -15,7 +15,7 @@ let g:is_bash=1      " yes, use bash for highlighting. at least for now.
 
 " major annoyances
 if !has('nvim') " vim fails to into colors unless you claim to be xterm
-    if &term =~ "-256color" " neovim is fine tho
+    if &term =~ "-256color$" " neovim is fine tho
         set term=xterm-256color
     endif
 endif
