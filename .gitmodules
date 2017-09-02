@@ -28,3 +28,6 @@
 [submodule "start/vim-colorschemes"]
 	path = start/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes
+[submodule "start/vim-surround"]
+	path = start/vim-surround
+	url = https://github.com/tpope/vim-surround
