@@ -1,39 +1,52 @@
 [submodule "start/nerdtree-git-plugin"]
     path = start/nerdtree-git-plugin
     url = https://github.com/Xuyuanp/nerdtree-git-plugin
+	branch = master
 [submodule "start/nerdtree"]
     path = start/nerdtree
     url = https://github.com/scrooloose/nerdtree
+	branch = master
 [submodule "start/vim-gitgutter"]
     path = start/vim-gitgutter
     url = https://github.com/airblade/vim-gitgutter
+	branch = master
 [submodule "start/a.vim"]
     path = start/a.vim
     url = https://github.com/vim-scripts/a.vim
+	branch = master
 [submodule "start/tabular"]
     path = start/tabular
     url = https://github.com/godlygeek/tabular
+	branch = master
 [submodule "start/vim-airline"]
     path = start/vim-airline
     url = https://github.com/vim-airline/vim-airline
+	branch = master
 [submodule "start/vim-unimpaired"]
     path = start/vim-unimpaired
     url = https://github.com/tpope/vim-unimpaired
+	branch = master
 [submodule "start/vim-polyglot"]
     path = start/vim-polyglot
     url = https://github.com/sheerun/vim-polyglot
+	branch = master
 [submodule "start/vim-dg"]
 	path = start/vim-dg
 	url = https://github.com/rubik/vim-dg
+	branch = master
 [submodule "start/vim-colorschemes"]
 	path = start/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes
+	branch = master
 [submodule "start/vim-surround"]
 	path = start/vim-surround
 	url = https://github.com/tpope/vim-surround
+	branch = master
 [submodule "start/vim-commentary"]
 	path = start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
+	branch = master
 [submodule "start/editorconfig-vim"]
 	path = start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
+	branch = master
